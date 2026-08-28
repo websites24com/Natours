@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "sass:watch": "sass --watch sass:css --style expanded --source-map",
+  "sass:build": "sass sass:css --style compressed --no-source-map",
+  "build": "npm run sass:build",
+  "dev": "concurrently \"npm run sass:watch\""
+},
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "sass": "^1.103.1"
+  }
+}
