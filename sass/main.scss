@@ -1,8 +1,20 @@
+@use "abstracts/functions";
+@use "abstracts/mixins";
+@use "abstracts/variables";
+@use "base/base";
+@use "base/animations";
+@use "base/utilities";
+@use "base/typography";
+@use "pages/home";
+@use "components/button";
+@use "layouts/header";
+
 /*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
+COLORS
 */
+
+
+
+/* End of basic resets */
+
+
